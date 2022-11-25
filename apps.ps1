@@ -18,7 +18,7 @@ winget install cidercollective.cider -h
 winget install discord.discord -h
 
 # Eclipse Temurin JDK with Hotspot
-winget install eclipseadoptium.temurin.17.jre
+winget install eclipseadoptium.temurin.17.jre -h
 
 # Element
 winget install element.element -h
