@@ -26,6 +26,9 @@ winget install element.element -h
 # Google Chrome
 winget install google.chrome -h
 
+# Iriun Webcam
+winget install iriun.iriunwebcam -h
+
 # Minecraft Launcher
 winget install mojang.minecraftlauncher -h
 
