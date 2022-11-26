@@ -15,3 +15,4 @@ Invoke-WebRequest -Uri https://raw.githubusercontent.com/andresda25/windows-apps
 # Run apps.ps1 in an elevated shell then exit
 Start-Process PowerShell -Verb runAs -ArgumentList "-file $env:TMP\apps.ps1"
 exit
+
