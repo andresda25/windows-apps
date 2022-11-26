@@ -2,12 +2,38 @@
 
 A simple powershell script that installs `winget` and `chocolatey`, then installs the Windows programs/games that I use.
 
+## What gets installed?
+
+* 7-Zip
+* Brave
+* Cider
+* Discord
+* Eclipse Temurin JRE with Hotspot 17
+* Element
+* Google Chrome
+* Iriun Webcam
+* Minecraft Launcher
+* Mozilla Firefox
+* NTLite
+* OBS Studio
+* ~~osu!~~ not yet
+* Parsec
+* Powertoys
+* ShareX
+* Spotify
+* Steam
+* TETR.IO
+* VALORANT
+* VMWare Workstation Pro
+* WinSCP
+
 ## How to use
 
-In an elevated powershell window, run:
+If you somehow use the same exact programs as me, then in an elevated powershell window, run:
 
 `irm https://hndres.com/get | iex`
 
 ## Why split it into two scripts?
 
 When you install `winget` you get prompted to reboot, but you can simply open a new powershell window to use it. I opted for the latter.
+
