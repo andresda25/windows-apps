@@ -1,4 +1,4 @@
-## windows-apps
+# windows-apps
 
 A simple powershell script that installs `winget` and `chocolatey`, then installs the Windows programs/games that I use.
 
