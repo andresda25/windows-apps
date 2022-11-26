@@ -68,3 +68,6 @@ choco install vmwareworkstation -y
 
 # WinSCP
 choco install winscp -y
+
+# Pause for viewing
+pause
