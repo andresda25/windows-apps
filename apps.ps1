@@ -1,69 +1,61 @@
-# Winget is needed for this script to work
-# Run as admin or disable UAC to run unattended 
-
-# (WIP) Create the path + variable containing the path of where the binaries will be downloaded when unable to use winget
-#New-Item -Path "$env:USERPROFILE\Downloads\Downloaded-Binaries" -ItemType Directory
-#$thepath = "$env:USERPROFILE\Downloads\Downloaded-Binaries"
-
-# 7-zip
-winget install 7zip.7zip -h
+# 7-Zip
+choco install 7zip -y
 
 # Brave
-winget install brave.brave -h
+choco install brave -y
 
 # Cider
-winget install cidercollective.cider -h
+choco install cider -y
 
 # Discord
-winget install discord.discord -h
+choco install discord -y
 
-# Eclipse Temurin JDK with Hotspot
-winget install eclipseadoptium.temurin.17.jre -h
+# Eclipse Temurin JRE with Hotspot
+choco install temurin17jre -y
 
 # Element
-winget install element.element -h
+choco install element-desktop -y
 
 # Google Chrome
-winget install google.chrome -h
+choco install googlechrome -y
 
 # Iriun Webcam
 winget install iriun.iriunwebcam -h
 
 # Minecraft Launcher
-winget install mojang.minecraftlauncher -h
+choco install minecraft-launcher -y
 
 # Mozilla Firefox
-winget install mozilla.firefox -h
+choco install firefox -y
 
 # NTLite
 winget install nlitesoft.ntlite -h
 
 # OBS Studio
-winget install obsproject.obsstudio -h
+choco install obs-studio -y
 
 # osu! (WIP)
-# winget doesn't install osu!stable but rather osu!lazer
+# N/A on chocolatey
+# winget installs osu!lazer instead of osu!stable
 # Not unattended
 #iwr -uri https://m1.ppy.sh/r/osu!install.exe -outfile $thepath\osu!install.exe
 #start-process -wait -filepath $thepath\osu!install.exe -passthru
 start https://osu.ppy.sh/home/download
 
 # Parsec
-winget install parsec.parsec -h
+choco install parsec -y
 
 # Powertoys
-winget install microsoft.powertoys -h
+choco install powertoys -y
 
 # ShareX
-winget install sharex.sharex -h
+choco install sharex -y
 
 # Spotify
-# The installer fails to run as administrator for some reason, so this needs to be run as a default user
-# On default Windows installations, you need to have a password set for runas to work and it's not unattended due to this
-runas /user:$env:USERNAME "winget install spotify.spotify -h"
+choco install spotify -y
 
 # Steam
-winget install valve.steam -h
+choco install steam-client -y
 
 # TETR.IO
 winget install osk.tetr -h
@@ -72,7 +64,7 @@ winget install osk.tetr -h
 winget install riotgames.valorant.na -h
 
 # VMWare Workstation Pro
-winget install vmware.workstationpro -h
+choco install vmwareworkstation -y
 
 # WinSCP
-winget install winscp.winscp -h
+choco install winscp -y
