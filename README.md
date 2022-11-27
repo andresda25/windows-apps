@@ -31,7 +31,7 @@ A simple powershell script that installs `winget` and `chocolatey`, then install
 
 If you somehow use the same exact programs as me, then in an elevated powershell window, run:
 
-```bash
+```powershell
 irm https://hndres.com/get | iex
 ```
 
