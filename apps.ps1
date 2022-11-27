@@ -51,8 +51,8 @@ choco install powertoys -y
 # ShareX
 choco install sharex -y
 
-# Spotify
-choco install spotify -y
+# Spotify (seems broken for now)
+#choco install spotify -y
 
 # Steam
 choco install steam-client -y
