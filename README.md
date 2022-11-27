@@ -20,7 +20,7 @@ A simple powershell script that installs `winget` and `chocolatey`, then install
 * Parsec
 * Powertoys
 * ShareX
-* Spotify
+* ~~Spotify~~ seems to be broken on chocolatey
 * Steam
 * TETR.IO
 * VALORANT
