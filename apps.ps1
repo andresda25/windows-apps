@@ -17,10 +17,10 @@ choco install temurin17jre -y
 choco install element-desktop -y
 
 # Google Chrome
-choco install googlechrome -y
+winget install google.chrome --accept-package-agreements --accept-source-agreements -h
 
 # Iriun Webcam
-winget install iriun.iriunwebcam -h
+winget install iriun.iriunwebcam --accept-package-agreements --accept-source-agreements -h
 
 # Minecraft Launcher
 choco install minecraft-launcher -y
@@ -29,7 +29,7 @@ choco install minecraft-launcher -y
 choco install firefox -y
 
 # NTLite
-winget install nlitesoft.ntlite -h
+winget install nlitesoft.ntlite --accept-package-agreements --accept-source-agreements -h
 
 # OBS Studio
 choco install obs-studio -y
@@ -55,13 +55,13 @@ choco install sharex -y
 #choco install spotify -y
 
 # Steam
-choco install steam-client -y
+winget install valve.steam --accept-package-agreements --accept-source-agreements -h
 
 # TETR.IO
-winget install osk.tetr -h
+winget install osk.tetr --accept-package-agreements --accept-source-agreements -h
 
 # VALORANT
-winget install riotgames.valorant.na -h
+winget install riotgames.valorant.na --accept-package-agreements --accept-source-agreements -h
 
 # VMWare Workstation Pro
 choco install vmwareworkstation -y
