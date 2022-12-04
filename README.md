@@ -1,6 +1,6 @@
 # windows-apps
 
-A simple powershell script that installs `winget` and `chocolatey`, then installs the Windows programs/games that I use.
+A simple powershell script that installs [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/) and [chocolatey](https://chocolatey.org/), then installs the Windows programs/games that I use.
 
 ## What gets installed?
 
