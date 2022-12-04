@@ -20,6 +20,7 @@ A simple powershell script that installs `winget` and `chocolatey`, then install
 * Parsec
 * Powertoys
 * ShareX
+* Shotcut
 * Steam
 * TETR.IO
 * VALORANT

@@ -51,6 +51,9 @@ choco install powertoys -y
 # ShareX
 choco install sharex -y
 
+# Shotcut
+choco install shotcut -y
+
 # Steam
 winget install valve.steam --accept-package-agreements --accept-source-agreements -h
 
