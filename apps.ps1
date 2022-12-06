@@ -45,9 +45,6 @@ start https://osu.ppy.sh/home/download
 # Parsec
 choco install parsec -y
 
-# Powertoys
-choco install powertoys -y
-
 # ShareX
 choco install sharex -y
 

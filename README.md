@@ -18,7 +18,6 @@ A simple powershell script that installs [winget](https://learn.microsoft.com/en
 * OBS Studio
 * ~~osu!~~ not yet
 * Parsec
-* Powertoys
 * ShareX
 * Shotcut
 * Steam
