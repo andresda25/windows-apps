@@ -14,6 +14,7 @@ A simple powershell script that installs [winget](https://learn.microsoft.com/en
 * Iriun Webcam
 * Minecraft Launcher
 * Mozilla Firefox
+* Nilesoft Shell
 * NTLite
 * OBS Studio
 * ~~osu!~~ not yet

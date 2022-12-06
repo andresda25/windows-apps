@@ -28,6 +28,9 @@ choco install minecraft-launcher -y
 # Mozilla Firefox
 choco install firefox -y
 
+# Nilesoft Shell
+winget install nilesoft.shell --accept-package-agreements --accept-source-agreements -h
+
 # NTLite
 winget install nlitesoft.ntlite --accept-package-agreements --accept-source-agreements -h
 
