@@ -60,9 +60,6 @@ winget install valve.steam --accept-package-agreements --accept-source-agreement
 # TETR.IO
 winget install osk.tetr --accept-package-agreements --accept-source-agreements -h
 
-# VALORANT
-winget install riotgames.valorant.na --accept-package-agreements --accept-source-agreements -h
-
 # VMWare Workstation Pro
 choco install vmwareworkstation -y
 

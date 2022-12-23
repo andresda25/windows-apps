@@ -23,7 +23,6 @@ A simple powershell script that installs [winget](https://learn.microsoft.com/en
 * Shotcut
 * Steam
 * TETR.IO
-* VALORANT
 * VMWare Workstation Pro
 * WinSCP
 
