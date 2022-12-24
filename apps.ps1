@@ -34,6 +34,9 @@ winget install nilesoft.shell --accept-package-agreements --accept-source-agreem
 # NTLite
 winget install nlitesoft.ntlite --accept-package-agreements --accept-source-agreements -h
 
+# NVCleanstall
+winget install techpowerup.nvcleanstall --accept-package-agreements --accept-source-agreements -h
+
 # OBS Studio
 choco install obs-studio -y
 

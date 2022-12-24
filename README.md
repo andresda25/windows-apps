@@ -16,6 +16,7 @@ A simple powershell script that installs [winget](https://learn.microsoft.com/en
 * Mozilla Firefox
 * Nilesoft Shell
 * NTLite
+* NVCleanstall
 * OBS Studio
 * ~~osu!~~ not yet
 * Parsec
