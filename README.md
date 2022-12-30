@@ -8,10 +8,12 @@ A simple powershell script that installs [winget](https://learn.microsoft.com/en
 * Brave
 * Cider
 * Discord
+* Docker Desktop
 * Eclipse Temurin JRE with Hotspot 17
 * Element
 * Google Chrome
 * Iriun Webcam
+* Microsoft Visual Studio Code
 * Minecraft Launcher
 * Mozilla Firefox
 * Nilesoft Shell

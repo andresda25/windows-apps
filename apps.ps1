@@ -10,6 +10,9 @@ choco install cider -y
 # Discord
 choco install discord -y
 
+# Docker Desktop
+winget install docker.dockerdesktop --accept-package-agreements --accept-source-agreements -h
+
 # Eclipse Temurin JRE with Hotspot
 choco install temurin17jre -y
 
@@ -21,6 +24,9 @@ winget install google.chrome --accept-package-agreements --accept-source-agreeme
 
 # Iriun Webcam
 winget install iriun.iriunwebcam --accept-package-agreements --accept-source-agreements -h
+
+# Microsoft Visual Studio Code
+winget install microsoft.visualstudiocode --accept-package-agreements --accept-source-agreements -h
 
 # Minecraft Launcher
 choco install minecraft-launcher -y
