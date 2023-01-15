@@ -10,7 +10,6 @@ A simple powershell script that installs [winget](https://learn.microsoft.com/en
 * Discord
 * Docker Desktop
 * Eclipse Temurin JRE with Hotspot 17
-* Element
 * Google Chrome
 * Iriun Webcam
 * Microsoft Visual Studio Code

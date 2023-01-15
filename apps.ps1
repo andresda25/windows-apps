@@ -16,9 +16,6 @@ winget install docker.dockerdesktop --accept-package-agreements --accept-source-
 # Eclipse Temurin JRE with Hotspot
 choco install temurin17jre -y
 
-# Element
-choco install element-desktop -y
-
 # Google Chrome
 winget install google.chrome --accept-package-agreements --accept-source-agreements -h
 
