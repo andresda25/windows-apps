@@ -21,6 +21,7 @@ Write-Host "Winget installed successfully"
 } else {
 Write-Host "Winget is already installed"
 }
+
 # Get apps.ps1
 Invoke-WebRequest -Uri https://raw.githubusercontent.com/andresda25/windows-apps/main/apps.ps1 -Outfile $env:TMP\apps.ps1
 
