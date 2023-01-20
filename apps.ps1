@@ -1,9 +1,6 @@
 # 7-Zip
 choco install 7zip -y
 
-# Brave
-choco install brave -y
-
 # Discord
 choco install discord -y
 

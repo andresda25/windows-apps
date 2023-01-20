@@ -5,7 +5,6 @@ A simple powershell script that installs [winget](https://learn.microsoft.com/en
 ## What gets installed?
 
 * 7-Zip
-* Brave
 * Discord
 * Eclipse Temurin JRE with Hotspot 17
 * Google Chrome
