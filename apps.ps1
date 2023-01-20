@@ -1,11 +1,11 @@
 # 7-Zip
-choco install 7zip -y
+winget install 7zip.7zip --accept-package-agreements --accept-source-agreements -h
 
 # Discord
-choco install discord -y
+winget install discord.discord --accept-package-agreements --accept-source-agreements -h
 
 # Eclipse Temurin JRE with Hotspot
-choco install temurin17jre -y
+winget install eclipseadoptium.temurin.17.jre --accept-package-agreements --accept-source-agreements -h 
 
 # Google Chrome
 winget install google.chrome --accept-package-agreements --accept-source-agreements -h
@@ -14,10 +14,10 @@ winget install google.chrome --accept-package-agreements --accept-source-agreeme
 winget install iriun.iriunwebcam --accept-package-agreements --accept-source-agreements -h
 
 # Minecraft Launcher
-choco install minecraft-launcher -y
+winget install mojang.minecraftlauncher --accept-package-agreements --accept-source-agreements -h
 
 # Mozilla Firefox
-choco install firefox -y
+winget install mozilla.firefox --accept-package-agreements --accept-source-agreements -h
 
 # NTLite
 winget install nlitesoft.ntlite --accept-package-agreements --accept-source-agreements -h
@@ -26,7 +26,7 @@ winget install nlitesoft.ntlite --accept-package-agreements --accept-source-agre
 winget install techpowerup.nvcleanstall --accept-package-agreements --accept-source-agreements -h
 
 # OBS Studio
-choco install obs-studio -y
+winget install obsproject.obsstudio --accept-package-agreements --accept-source-agreements -h
 
 # osu! (WIP)
 # N/A on chocolatey
@@ -36,14 +36,14 @@ choco install obs-studio -y
 #start-process -wait -filepath $thepath\osu!install.exe -passthru
 start https://osu.ppy.sh/home/download
 
-# Parsec
-choco install parsec -y
+# Parsec in shared mode
+winget install parsec.parsec --override "/silent /shared" --accept-package-agreements --accept-source-agreements -h
 
 # ShareX
-choco install sharex -y
+winget install sharex.sharex --accept-package-agreements --accept-source-agreements -h
 
 # Shotcut
-choco install shotcut -y
+winget install meltytech.shotcut --accept-package-agreements --accept-source-agreements -h
 
 # Steam
 winget install valve.steam --accept-package-agreements --accept-source-agreements -h
@@ -52,11 +52,10 @@ winget install valve.steam --accept-package-agreements --accept-source-agreement
 winget install osk.tetr --accept-package-agreements --accept-source-agreements -h
 
 # VMWare Workstation Pro
-choco install vmwareworkstation -y
+winget install vmware.workstationpro --accept-package-agreements --accept-source-agreements -h
 
 # WinSCP
-choco install winscp -y
+winget install winscp.winscp --accept-package-agreements --accept-source-agreements -h
 
 # Pause for viewing
 pause
-
