@@ -13,8 +13,8 @@ winget install google.chrome --accept-package-agreements --accept-source-agreeme
 # Iriun Webcam
 winget install iriun.iriunwebcam --accept-package-agreements --accept-source-agreements -h
 
-# Minecraft Launcher
-winget install mojang.minecraftlauncher --accept-package-agreements --accept-source-agreements -h
+# Java 8
+winget install Oracle.JavaRuntimeEnvironment --accept-package-agreements --accept-source-agreements -h
 
 # Mozilla Firefox
 winget install mozilla.firefox --accept-package-agreements --accept-source-agreements -h
@@ -28,16 +28,14 @@ winget install techpowerup.nvcleanstall --accept-package-agreements --accept-sou
 # OBS Studio
 winget install obsproject.obsstudio --accept-package-agreements --accept-source-agreements -h
 
-# osu! (WIP)
-# N/A on chocolatey
-# winget installs osu!lazer instead of osu!stable
-# Not unattended
-#iwr -uri https://m1.ppy.sh/r/osu!install.exe -outfile $thepath\osu!install.exe
-#start-process -wait -filepath $thepath\osu!install.exe -passthru
-start https://osu.ppy.sh/home/download
+# OpenVPN Connect
+winget install OpenVPNTechnologies.OpenVPNConnect --accept-package-agreements --accept-source-agreements -h
 
-# Parsec in shared mode
+# Parsec (in shared mode)
 winget install parsec.parsec --override "/silent /shared" --accept-package-agreements --accept-source-agreements -h
+
+# Prism Launcher
+winget install PrismLauncher.PrismLauncher --accept-package-agreements --accept-source-agreements -h
 
 # ShareX
 winget install sharex.sharex --accept-package-agreements --accept-source-agreements -h
@@ -48,6 +46,12 @@ winget install meltytech.shotcut --accept-package-agreements --accept-source-agr
 # Steam
 winget install valve.steam --accept-package-agreements --accept-source-agreements -h
 
+# TeamSpeak 3
+winget install TeamSpeakSystems.TeamSpeakClient --accept-package-agreements --accept-source-agreements -h
+
+# TegraRcmGUI
+winget install eliboa.TegraRcmGUI --accept-package-agreements --accept-source-agreements -h
+
 # TETR.IO
 winget install osk.tetr --accept-package-agreements --accept-source-agreements -h
 
@@ -56,6 +60,9 @@ winget install vmware.workstationpro --accept-package-agreements --accept-source
 
 # WinSCP
 winget install winscp.winscp --accept-package-agreements --accept-source-agreements -h
+
+# Youtube Music Desktop App
+winget install Ytmdesktop.Ytmdesktop --accept-package-agreements --accept-source-agreements -h
 
 # Pause for viewing
 pause
