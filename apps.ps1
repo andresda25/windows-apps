@@ -7,17 +7,20 @@ winget install discord.discord --accept-package-agreements --accept-source-agree
 # Eclipse Temurin JRE with Hotspot
 winget install eclipseadoptium.temurin.17.jre --accept-package-agreements --accept-source-agreements -h 
 
-# Google Chrome
-winget install google.chrome --accept-package-agreements --accept-source-agreements -h
-
 # Iriun Webcam
 winget install iriun.iriunwebcam --accept-package-agreements --accept-source-agreements -h
 
 # Java 8
 winget install Oracle.JavaRuntimeEnvironment --accept-package-agreements --accept-source-agreements -h
 
-# Mozilla Firefox
-winget install mozilla.firefox --accept-package-agreements --accept-source-agreements -h
+# LibreWolf
+winget install LibreWolf.LibreWolf --accept-package-agreements --accept-source-agreements -h
+
+# Moonlight
+winget install MoonlightGameStreamingProject.Moonlight --accept-package-agreements --accept-source-agreements -h
+
+# Mozilla Thunderbird
+winget install Mozilla.Thunderbird --accept-package-agreements --accept-source-agreements -h
 
 # NTLite
 winget install nlitesoft.ntlite --accept-package-agreements --accept-source-agreements -h
@@ -46,8 +49,8 @@ winget install meltytech.shotcut --accept-package-agreements --accept-source-agr
 # Steam
 winget install valve.steam --accept-package-agreements --accept-source-agreements -h
 
-# TeamSpeak 3
-winget install TeamSpeakSystems.TeamSpeakClient --accept-package-agreements --accept-source-agreements -h
+# Sunshine
+winget install LizardByte.Sunshine --accept-package-agreements --accept-source-agreements -h
 
 # TegraRcmGUI
 winget install eliboa.TegraRcmGUI --accept-package-agreements --accept-source-agreements -h
@@ -63,6 +66,9 @@ winget install winscp.winscp --accept-package-agreements --accept-source-agreeme
 
 # Youtube Music Desktop App
 winget install Ytmdesktop.Ytmdesktop --accept-package-agreements --accept-source-agreements -h
+
+# Yubico Authenticator
+winget install Yubico.Authenticator --accept-package-agreements --accept-source-agreements -h
 
 # Pause for viewing
 pause
