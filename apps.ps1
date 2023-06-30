@@ -11,16 +11,16 @@ winget install eclipseadoptium.temurin.17.jre --accept-package-agreements --acce
 winget install iriun.iriunwebcam --accept-package-agreements --accept-source-agreements -h
 
 # Java 8
-winget install Oracle.JavaRuntimeEnvironment --accept-package-agreements --accept-source-agreements -h
+winget install oracle.javaruntimeenvironment --accept-package-agreements --accept-source-agreements -h
 
 # LibreWolf
-winget install LibreWolf.LibreWolf --accept-package-agreements --accept-source-agreements -h
+winget install libreWolf.libreWolf --accept-package-agreements --accept-source-agreements -h
 
 # Moonlight
-winget install MoonlightGameStreamingProject.Moonlight --accept-package-agreements --accept-source-agreements -h
+winget install moonlightgamestreamingproject.moonlight --accept-package-agreements --accept-source-agreements -h
 
 # Mozilla Thunderbird
-winget install Mozilla.Thunderbird --accept-package-agreements --accept-source-agreements -h
+winget install mozilla.thunderbird --accept-package-agreements --accept-source-agreements -h
 
 # NTLite
 winget install nlitesoft.ntlite --accept-package-agreements --accept-source-agreements -h
@@ -32,13 +32,13 @@ winget install techpowerup.nvcleanstall --accept-package-agreements --accept-sou
 winget install obsproject.obsstudio --accept-package-agreements --accept-source-agreements -h
 
 # OpenVPN Connect
-winget install OpenVPNTechnologies.OpenVPNConnect --accept-package-agreements --accept-source-agreements -h
+winget install openvpntechnologies.openvpnconnect --accept-package-agreements --accept-source-agreements -h
 
 # Parsec (in shared mode)
 winget install parsec.parsec --override "/silent /shared" --accept-package-agreements --accept-source-agreements -h
 
 # Prism Launcher
-winget install PrismLauncher.PrismLauncher --accept-package-agreements --accept-source-agreements -h
+winget install prismlauncher.prismlauncher --accept-package-agreements --accept-source-agreements -h
 
 # ShareX
 winget install sharex.sharex --accept-package-agreements --accept-source-agreements -h
@@ -50,25 +50,22 @@ winget install meltytech.shotcut --accept-package-agreements --accept-source-agr
 winget install valve.steam --accept-package-agreements --accept-source-agreements -h
 
 # Sunshine
-winget install LizardByte.Sunshine --accept-package-agreements --accept-source-agreements -h
+winget install lizardByte.sunshine --accept-package-agreements --accept-source-agreements -h
 
 # TegraRcmGUI
-winget install eliboa.TegraRcmGUI --accept-package-agreements --accept-source-agreements -h
+winget install eliboa.tegrarcmgui --accept-package-agreements --accept-source-agreements -h
 
 # TETR.IO
 winget install osk.tetr --accept-package-agreements --accept-source-agreements -h
-
-# VMWare Workstation Pro
-winget install vmware.workstationpro --accept-package-agreements --accept-source-agreements -h
 
 # WinSCP
 winget install winscp.winscp --accept-package-agreements --accept-source-agreements -h
 
 # Youtube Music Desktop App
-winget install Ytmdesktop.Ytmdesktop --accept-package-agreements --accept-source-agreements -h
+winget install ytmdesktop.ytmdesktop --accept-package-agreements --accept-source-agreements -h
 
 # Yubico Authenticator
-winget install Yubico.Authenticator --accept-package-agreements --accept-source-agreements -h
+winget install yubico.authenticator --accept-package-agreements --accept-source-agreements -h
 
 # Pause for viewing
 pause

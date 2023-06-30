@@ -6,22 +6,27 @@ A simple powershell script that installs [winget](https://learn.microsoft.com/en
 
 * 7-Zip
 * Discord
-* Eclipse Temurin JRE with Hotspot 17
-* Google Chrome
+* Eclipse Temurin JRE 17
 * Iriun Webcam
-* Minecraft Launcher
-* Mozilla Firefox
+* Java 8
+* LibreWolf
+* Moonlight
+* Mozilla Thunderbird
 * NTLite
 * NVCleanstall
 * OBS Studio
-* ~~osu!~~ not yet
+* OpenVPN Connect
 * Parsec
+* Prism Launcher
 * ShareX
 * Shotcut
 * Steam
+* Sunshine
+* TegraRcmGUI
 * TETR.IO
-* VMWare Workstation Pro
 * WinSCP
+* YouTube Music Desktop App
+* Yubico Authenticator
 
 ## How to use
 
