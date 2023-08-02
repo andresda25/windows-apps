@@ -1,5 +1,5 @@
-# 7-Zip
-winget install 7zip.7zip --accept-package-agreements --accept-source-agreements -h
+# Brave
+winget install brave.brave --accept-package-agreements --accept-source-agreements -h
 
 # Discord
 winget install discord.discord --accept-package-agreements --accept-source-agreements -h
@@ -13,14 +13,14 @@ winget install iriun.iriunwebcam --accept-package-agreements --accept-source-agr
 # Java 8
 winget install oracle.javaruntimeenvironment --accept-package-agreements --accept-source-agreements -h
 
-# LibreWolf
-winget install libreWolf.libreWolf --accept-package-agreements --accept-source-agreements -h
-
 # Moonlight
 winget install moonlightgamestreamingproject.moonlight --accept-package-agreements --accept-source-agreements -h
 
 # Mozilla Thunderbird
 winget install mozilla.thunderbird --accept-package-agreements --accept-source-agreements -h
+
+# NanaZip
+winget install 9N8G7TSCL18R --accept-package-agreements --accept-source-agreements -h
 
 # NTLite
 winget install nlitesoft.ntlite --accept-package-agreements --accept-source-agreements -h
@@ -55,14 +55,14 @@ winget install lizardByte.sunshine --accept-package-agreements --accept-source-a
 # TegraRcmGUI
 winget install eliboa.tegrarcmgui --accept-package-agreements --accept-source-agreements -h
 
+# TeraCopy
+choco install teracopy -y
+
 # TETR.IO
 winget install osk.tetr --accept-package-agreements --accept-source-agreements -h
 
 # WinSCP
 winget install winscp.winscp --accept-package-agreements --accept-source-agreements -h
-
-# Youtube Music Desktop App
-winget install ytmdesktop.ytmdesktop --accept-package-agreements --accept-source-agreements -h
 
 # Yubico Authenticator
 winget install yubico.authenticator --accept-package-agreements --accept-source-agreements -h

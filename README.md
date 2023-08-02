@@ -4,14 +4,14 @@ A simple powershell script that installs [winget](https://learn.microsoft.com/en
 
 ## What gets installed?
 
-* 7-Zip
+* Brave Browser
 * Discord
 * Eclipse Temurin JRE 17
 * Iriun Webcam
 * Java 8
-* LibreWolf
 * Moonlight
 * Mozilla Thunderbird
+* NanaZip
 * NTLite
 * NVCleanstall
 * OBS Studio
@@ -23,9 +23,9 @@ A simple powershell script that installs [winget](https://learn.microsoft.com/en
 * Steam
 * Sunshine
 * TegraRcmGUI
+* TeraCopy
 * TETR.IO
 * WinSCP
-* YouTube Music Desktop App
 * Yubico Authenticator
 
 ## How to use
