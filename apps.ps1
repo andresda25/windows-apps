@@ -1,6 +1,3 @@
-# Brave
-winget install brave.brave --accept-package-agreements --accept-source-agreements -h
-
 # Discord
 winget install discord.discord --accept-package-agreements --accept-source-agreements -h
 
@@ -13,17 +10,17 @@ winget install iriun.iriunwebcam --accept-package-agreements --accept-source-agr
 # Java 8
 winget install oracle.javaruntimeenvironment --accept-package-agreements --accept-source-agreements -h
 
+# Jellyfin Media Player
+winget install Jellyfin.JellyfinMediaPlayer --accept-package-agreements --accept-source-agreements -h
+
+# LibreOffice
+winget install TheDocumentFoundation.LibreOffice --accept-package-agreements --accept-source-agreements -h
+
 # Moonlight
 winget install moonlightgamestreamingproject.moonlight --accept-package-agreements --accept-source-agreements -h
 
 # Mozilla Thunderbird
 winget install mozilla.thunderbird --accept-package-agreements --accept-source-agreements -h
-
-# NanaZip
-winget install 9N8G7TSCL18R --accept-package-agreements --accept-source-agreements -h
-
-# NTLite
-winget install nlitesoft.ntlite --accept-package-agreements --accept-source-agreements -h
 
 # NVCleanstall
 winget install techpowerup.nvcleanstall --accept-package-agreements --accept-source-agreements -h
@@ -31,11 +28,8 @@ winget install techpowerup.nvcleanstall --accept-package-agreements --accept-sou
 # OBS Studio
 winget install obsproject.obsstudio --accept-package-agreements --accept-source-agreements -h
 
-# OpenVPN Connect
-winget install openvpntechnologies.openvpnconnect --accept-package-agreements --accept-source-agreements -h
-
-# Parsec (in shared mode)
-winget install parsec.parsec --override "/silent /shared" --accept-package-agreements --accept-source-agreements -h
+# Parsec
+winget install parsec.parsec --override "/silent" --accept-package-agreements --accept-source-agreements -h
 
 # Prism Launcher
 winget install prismlauncher.prismlauncher --accept-package-agreements --accept-source-agreements -h
@@ -60,6 +54,9 @@ choco install teracopy -y
 
 # TETR.IO
 winget install osk.tetr --accept-package-agreements --accept-source-agreements -h
+
+# Thorium
+winget install Alex313031.Thorium --accept-package-agreements --accept-source-agreements -h
 
 # WinSCP
 winget install winscp.winscp --accept-package-agreements --accept-source-agreements -h

@@ -1,21 +1,19 @@
 # windows-apps
 
-A simple powershell script that installs [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/) and [chocolatey](https://chocolatey.org/), then installs the Windows programs/games that I use.
+A simple powershell script that installs specific applications using winget and [chocolatey](https://chocolatey.org/)
 
 ## What gets installed?
 
-* Brave Browser
 * Discord
 * Eclipse Temurin JRE 17
 * Iriun Webcam
 * Java 8
+* Jellyfin Media Player
+* LibreOffice
 * Moonlight
 * Mozilla Thunderbird
-* NanaZip
-* NTLite
 * NVCleanstall
 * OBS Studio
-* OpenVPN Connect
 * Parsec
 * Prism Launcher
 * ShareX
@@ -25,18 +23,16 @@ A simple powershell script that installs [winget](https://learn.microsoft.com/en
 * TegraRcmGUI
 * TeraCopy
 * TETR.IO
+* Thorium
 * WinSCP
 * Yubico Authenticator
 
 ## How to use
 
-If you somehow use the same exact programs as me, then in an elevated powershell window, run:
+First install [App Installer](https://apps.microsoft.com/detail/app-installer/9NBLGGH4NNS1) from the Microsoft Store, then run the following in an elevated powershell window:
 
 ```powershell
 irm hndres.com/get | iex
 ```
 
-## Why split it into two scripts?
-
-When you install `winget` you get prompted to reboot, but you can simply open a new powershell window to use it. I opted for the latter.
-
+`hndres.com/get` is a 301 redirect to `https://raw.githubusercontent.com/andresda25/windows-apps/main/get.ps1`.
