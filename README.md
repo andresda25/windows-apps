@@ -1,6 +1,6 @@
 # windows-apps
 
-A simple powershell script that installs specific applications using [winget](https://github.com/microsoft/winget-cli) and [chocolatey](https://chocolatey.org)
+A simple powershell script that installs specific applications using [winget](https://github.com/microsoft/winget-cli) and [chocolatey](https://github.com/chocolatey/choco)
 
 ## What gets installed?
 
