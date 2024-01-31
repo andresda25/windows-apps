@@ -1,38 +1,51 @@
 # windows-apps
 
-A simple powershell script that installs specific applications using winget and [chocolatey](https://chocolatey.org/)
+A simple powershell script that installs specific applications using [winget](https://github.com/microsoft/winget-cli) and [chocolatey](https://chocolatey.org)
 
 ## What gets installed?
 
+* 7-Zip
 * Discord
+* Eclipse Temurin JRE 8
 * Eclipse Temurin JRE 17
-* Iriun Webcam
-* Java 8
+* Heroic Games Launcher
 * Jellyfin Media Player
+* KDE Connect
+* Krita
 * LibreOffice
+* LibreWolf
+* Microsoft Visual C++ 2015-2022 Redistributable (x64)
 * Moonlight
 * Mozilla Thunderbird
+* Mp3tag
 * NVCleanstall
 * OBS Studio
-* Parsec
+* osu!
+* Parsec (shared install)
 * Prism Launcher
+* PS Remote Play
 * ShareX
 * Shotcut
+* Spotify
 * Steam
 * Sunshine
 * TegraRcmGUI
 * TeraCopy
 * TETR.IO
-* Thorium
 * WinSCP
 * Yubico Authenticator
 
 ## How to use
 
-First install [App Installer](https://apps.microsoft.com/detail/app-installer/9NBLGGH4NNS1) from the Microsoft Store, then run the following in an elevated powershell window:
+Run the following in an elevated powershell window:
 
 ```powershell
 irm hndres.com/get | iex
 ```
 
-`hndres.com/get` is a 301 redirect to `https://raw.githubusercontent.com/andresda25/windows-apps/main/get.ps1`.
+`hndres.com/get` redirects to [get.ps1](https://github.com/andresda25/windows-apps/blob/main/get.ps1).
+
+It should auto-install winget. If it fails for some reason, manually install it [here](https://apps.microsoft.com/detail/app-installer/9NBLGGH4NNS1).
+
+
+
